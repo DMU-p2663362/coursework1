@@ -1,0 +1,64 @@
+
+/* I use a ccs style sheet to create an overall theme which runs throughout my website, making it easier to customise and style*/
+
+/* For my background colour i use grey to reflect the grizzly, rainy setting of the film, as welll as the black and white style of the film*/
+
+  body{ background-color:  #595959; }
+
+/*The main header has box shadow, making the text look as if it is glowing, similar to the glow of a lighthouse */
+h1 {
+color: yellow; font-size: 7em;
+border: 1px solid; padding: 10px; box-shadow: 5px 10px 8px 10px yellow; text-align: center;
+}
+
+/*The house colours are yellow, white, and grey, creating an eerie atmosphere, and allowing the yellow text to stand out further*/
+
+h2 {
+  color: yellow; border: 3px white solid; padding: 10px; text-align: center; font-size: 5em;
+}
+
+/*I centre align most of my page, to give it a more professional look */
+
+p.p1 {
+ color: white; font-size: 15px; text-align: center;
+
+}
+
+/* there are some elements on my page that are still left aligned in order to distinguish them as the main focal points of the webpage, and group them together as one whole related piece*/
+
+p.p2{
+  color: yellow; font-weight: bold;
+}
+
+p.p3{
+  color: white;
+}
+
+p.p4{
+  color: yellow; text-align: center;
+}
+
+h3 {
+  color: yellow; font-size: 30px; text-align: center; font-weight: bold;
+}
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; text-align: center;
+}
+
+footer {
+  font-size: 0.8em;
+  color: white; text-align: center;
+}
+
+
+img {
+  height: 300px; width: 200px; float: left; margin-right: 20px
+}
+
+div{
+text-align: center;
+}
